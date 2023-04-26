@@ -400,7 +400,7 @@ nav {
 }
 
 .team_box .btn {
-    width: 40%;
+    width: 50%;
 }
 
 .team_box span {
@@ -621,7 +621,7 @@ nav {
     }
 
     .team_box .btn {
-        width: 100%;
+        width: 100% !important;
     }
 
     .team_box span {
@@ -836,16 +836,11 @@ nav {
         width: 90%;
     }
 
-    .team_box .btn {
-        width: 100%;
-    }
-
     .btn-icon {
         display: block;
     }
-
     .team_box .btn {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
