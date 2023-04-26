@@ -8,6 +8,10 @@
     color:#333;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 *::before,
 *::after{
     margin: 0;
@@ -151,7 +155,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
+    width: 30%;
     height: 80vh;
     z-index: 99;
     color: #fff;
@@ -838,6 +842,10 @@ nav {
     .btn-icon {
         display: block;
     }
+    
+    .team_box .btn {
+        width: 100%;
+    }
 }
 
 @media (max-width: 494px) {
@@ -850,9 +858,6 @@ nav {
         width: 90%;
     }
 
-    .team_box .btn {
-        width: 100%;
-    }
 
     .about_img .img_bottom {
         flex-direction: column;
