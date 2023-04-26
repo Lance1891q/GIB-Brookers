@@ -1,0 +1,17 @@
+.category {
+    margin-top: 50px;
+}
+
+.cate_text {
+    text-align: center;
+}
+
+.cate_text h1 {
+    font-family: 'Roboto Serif', serif;
+    color: #333;
+    font-size: 40px;
+}
+
+.home_about {
+    background-image: url("../img/banner_7.png") !important;
+}
