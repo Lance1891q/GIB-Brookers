@@ -621,7 +621,7 @@ nav {
     }
 
     .team_box .btn {
-        width: 40%;
+        width: 100%;
     }
 
     .team_box span {
@@ -668,7 +668,8 @@ nav {
 
 @media (max-width: 999px) {
     .home_con {
-        width: 100%;
+        width: 80%;
+        align-items: center;
     }
 
     .about {
@@ -842,7 +843,7 @@ nav {
     .btn-icon {
         display: block;
     }
-    
+
     .team_box .btn {
         width: 100%;
     }
