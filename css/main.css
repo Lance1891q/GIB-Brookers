@@ -836,6 +836,10 @@ nav {
         color: #fff;
     }
 
+    body {
+        overflow-x: hidden;
+    }
+
     .con_container .btn {
         width: 90%;
     }
