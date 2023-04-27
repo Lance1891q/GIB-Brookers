@@ -353,6 +353,10 @@ nav {
     color: #333;
 }
 
+.differ_text_con p {
+    line-height: 25px;
+}
+
 .differ_text p:nth-child(2) {
     color: #333;
     padding: 20px 0;
