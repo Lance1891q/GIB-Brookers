@@ -692,7 +692,6 @@ nav {
         border-bottom: #14183e 5px solid;
         text-align: center;
     }
-    
 
     .about {
         flex-direction: column;
@@ -883,6 +882,24 @@ nav {
     .con_container span {
         font-size: 30px;
         color: #fff;
+    }
+
+    .row h5 {
+        font-size: 20px;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    
+    .row {
+        padding: 10px 10px 40px 10px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+        transition: all .42s;
+        width: 100%;
+        border-radius: 5px;
+        border-bottom: #14183e 5px solid;
+        text-align: center;
     }
 
     .con_container .btn {
