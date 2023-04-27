@@ -8,7 +8,7 @@ p {
 
 .home_about {
     display: flex;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/banner-4.jpg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/banner_1.jpg");
     background-size: cover;
     height: 50vh;
     background-position: center;
