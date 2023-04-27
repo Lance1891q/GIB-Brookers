@@ -836,9 +836,14 @@ nav {
         color: #fff;
     }
 
-    body {
+    .team {
         overflow-x: hidden;
     }
+
+    .about_us {
+        overflow-x: hidden;
+    }
+
 
     .con_container .btn {
         width: 90%;
