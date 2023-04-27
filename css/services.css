@@ -19,10 +19,23 @@
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
+    padding-bottom: 20px;
 }
 
 .row_img_11 {
     background-image: url("../img/all_bonds.jpg");
+}
+
+.row_img_10 {
+    background-image: url("../img/all_a.jpg");
+}
+
+.row_img_7 {
+    background-image: url("../img/risk.jpg");
+}
+
+.row_img_8 {
+    background-image: url("../img/public_1.jpg");
 }
 
 .row_img_1 {

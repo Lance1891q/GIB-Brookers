@@ -105,6 +105,9 @@ nav {
     color: #fff;
 }
 
+.row_img_con {
+    margin-bottom: 20px;
+}
 
 .nav-list a {
     display: block;
