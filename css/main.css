@@ -84,7 +84,7 @@ nav {
 }
 
 .logo img {
-    width: 150px;
+    width: 200px;
     height: 50px;
 }
 
@@ -101,6 +101,11 @@ nav {
     line-height: 2rem;
 }
 
+.sub-menu li a {
+    color: #fff;
+}
+
+
 .nav-list a {
     display: block;
     color: #333;
@@ -116,11 +121,10 @@ nav {
 
 .sub-menu {
     width: 13rem;
-    background-color: red;
     position: absolute;
     display: block;
-    border-top: 3px solid #241e56;
-    background-color: #ddd2d2;
+    border-top: 3px solid #ce8b42;
+    background-color: #241e56;
     top: 16rem;
     transition: all 550ms ease;
     opacity: 0;
