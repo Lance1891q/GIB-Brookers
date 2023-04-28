@@ -84,8 +84,8 @@ nav {
 }
 
 .logo img {
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: auto;
 }
 
 .nav-list {
@@ -289,8 +289,8 @@ nav {
 }
 
 .about_us {
-    background-color: #f8f8f8;
-    margin-top: 100px;
+    background-color: #d1d0d0;
+    margin-top: 70px;
 }
 
 .about {
@@ -303,7 +303,7 @@ nav {
 }
 
 .about_img .img_top img {
-    width: 100%;
+    width: 80%;
     height: 100%;
     z-index: 2;
     margin-top: -50px;
@@ -344,12 +344,55 @@ nav {
     line-height: 25px;
 }
 
+.palq_con {
+    margin-top: 50px;
+}
+
+.palq_row_con {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+}
+
+.palq_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.palq_box i {
+    color: #241e56;
+    font-size: 50px;
+}
+
+.palq_box p {
+    font-size: 20px;
+    transition: .42s ease;
+}
+
+.palq_box_icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/box.png");
+    background-position: center;
+    height: 270px;
+    background-size: cover;
+}
+
+.palq_box p:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #241e56;
+}
+
 .cate-pro {
     gap: 2rem;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(auto-fit, minmax(460px, auto));
-    margin-top: 50px;
 }
 
 .row_sp span {
@@ -427,6 +470,7 @@ nav {
     display: flex;
     gap: 2rem;
     height: 70vh;
+    padding: 50px 0;
 }
 
 .differ_img {
@@ -453,6 +497,7 @@ nav {
 
 .differ_text_con p {
     line-height: 25px;
+    color: #333;
 }
 
 .differ_text p:nth-child(2) {
@@ -469,31 +514,34 @@ nav {
 .differ_text .p_icon i {
     font-weight: 800;
     font-size: 20px;
-    color: #241e56;
+    color: #333;
 }
 
 .differ .btn {
     margin-top: 20px;
 }
 
+.team_sec {
+    background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/banner_16.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
 .team_con {
-    margin-top: 50px;
     display: flex;
     gap: 2rem;
+    height: 80vh;
 }
 
 .team_box {
-    height: 500px;
-    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.team_box {
     box-shadow: none;
     transition: all .42s;
-    width: 40%;
+    width: 60%;
     border-radius: 5px;
     display: flex;
     gap: 0.7rem;
@@ -501,12 +549,78 @@ nav {
     justify-content: center;
 }
 
-.team_box .btn {
-    width: 50%;
+.t_b_1 {
+    width: 40%;
 }
 
-.team_box span {
+.team_con_img {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.team_box_img_con {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    display: flex;
+}
+
+.team_con_1 {
+    height: 60%;
+}
+
+.team_con_2 {
+    height: 40%;
+}
+
+.con_1 {
+    height: 90%;
+    background-color: #ce8b42;
+}
+
+.con_2 {
+    height: 100%;
+    background-color: #241e56;
+}
+
+.con_3 {
+    height: 80%;
+    background-color: #241e56;
+}
+
+.con_4 {
+    height: 100%;
+    background-color: #ce8b42;
+}
+
+.team_box .main_span {
     font-size: 50px;
+    color: #fff;
+}
+
+.team_box p:nth-child(3) {
+    color: #fff;
+}
+
+.team_con_img span {
+    font-size:  25px;
+    display: block;
+    margin: 10px;
+    color: #fff;
+}
+
+.team_con_img p {
+    font-size:  15px;
+    line-height: 20px;
+    display: block;
+    margin: 10px;
+    color: #fff;
 }
 
 .team_box img {
@@ -550,8 +664,8 @@ nav {
 /* Contact Us */
 
 .con_footer {
-    background-color: #262626;
-    margin-top: 100px;
+    background-color: #9a9794;
+    margin-top: 80px;
 }
 
 .contact-info {
@@ -562,7 +676,7 @@ nav {
 }
 
 .contact-info img {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .first-info {
@@ -644,12 +758,12 @@ nav {
 
 .end-text {
     text-align: center;
-    padding: 20px;
     border-top: 2px solid #2f2f2f;
+    padding-top: 20px;
 }
 
 .footer p {
-    color: #606060;
+    color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -664,7 +778,7 @@ nav {
 
 @media (max-width: 1292px) {
     section {
-        padding: 60px 4%;
+        padding: 20px 4%;
         transition: .3s;
     }
 
@@ -716,27 +830,26 @@ nav {
     }
     
     .team_con {
-        margin-top: 10px;
+        /* margin-top: 10px; */
         flex-direction: column;
         gap: 2rem;
     }
 
-    .team_box img {
-        height: 500px;
-        width: auto;
+    .team_con {
+        height: 140vh;
+    }
+
+    .team_box {
+        width: 100%;
+        text-align: center;
     }
     
-    .team_box {
-        text-align: center;
-        align-items: center;
-        box-shadow: none;
-        transition: all .42s;
-        width: 100%;
-        border-radius: 5px;
-        display: flex;
-        gap: 0.7rem;
-        flex-direction: column;
-        justify-content: center;
+    .t_b_1 {
+        height: 20%;
+    }
+    
+    .t_b_2 {
+        height: 80%;
     }
 
     .team_box .btn {
@@ -994,6 +1107,11 @@ nav {
         color: #fff;
     }
 
+    .team_con_img span {
+        font-size: 25px;
+        color: #fff;
+    }
+
     .team {
         overflow-x: hidden;
     }
@@ -1001,7 +1119,6 @@ nav {
     .about_us {
         overflow-x: hidden;
     }
-
 
     .con_container .btn {
         width: 90%;
@@ -1012,6 +1129,70 @@ nav {
     }
     .team_box .btn {
         width: 100% !important;
+    }
+}
+
+@media (max-width: 696px) {
+    .team_con {
+        height: 100vh;
+    }
+
+    .t_b_2 {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 678px) {
+
+    .t_b_2 {
+        transform: scale(1);
+    }
+    
+    .team_con_img {
+        width: 50%;
+        border-radius: 1rem;
+    }
+
+    .team_con {
+        gap: 2rem;
+        height: 200vh;
+    }
+    
+    .team_con_1 {
+        height: 50%;
+    }
+    
+    .team_con_2 {
+        height: 50%;
+    }
+
+    .team_box_img_con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .con_1 {
+        height: 100%;
+        width: 100%;
+        background-color: #ce8b42;
+    }
+    
+    .con_2 {
+        height: 100%;
+        width: 100%;
+        background-color: #241e56;
+    }
+    
+    .con_3 {
+        height: 100%;
+        width: 100%;
+        background-color: #241e56;
+    }
+    
+    .con_4 {
+        height: 100%;
+        width: 100%;
+        background-color: #ce8b42;
     }
 }
 
