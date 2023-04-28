@@ -115,6 +115,7 @@ nav {
 
 .home_cover_overlay {
     overflow: hidden;
+    border-radius: 1rem;
 }
 
 .home_overlay_box {
@@ -275,9 +276,10 @@ nav {
     top: 80%;
     width: 74%;
     height: 12%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    z-index: 99;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #241e56;
     display: flex;
+    z-index: 99;
     padding: 20px 50px;
     align-items: center;
     justify-content: center;
@@ -289,7 +291,7 @@ nav {
 }
 
 .about_us {
-    background-color: #d1d0d0;
+    background-color: #f6f6f6;
     margin-top: 50px;
 }
 
@@ -307,6 +309,7 @@ nav {
     height: 100%;
     z-index: 2;
     margin-top: -50px;
+    border-radius: 1rem;
 }
 
 .about_img .img_bottom {
@@ -397,7 +400,13 @@ nav {
     border-bottom: 2px solid #ce8b42;
 }
 
+.category {
+    background: #f6f6f6;
+}
+
 .cate-pro {
+    border-radius: 1rem;
+    border-top: 10px solid #241e56;
     gap: 2rem;
     display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
@@ -534,7 +543,7 @@ nav {
     background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../img/banner_16.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 40px;
+    margin-top: 65px;
     margin-bottom: 80px;
 }
 
