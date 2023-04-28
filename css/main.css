@@ -223,7 +223,7 @@ nav {
     position: relative;
     width: 100vw;
     height: 75vh;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .overlay_1 {
@@ -290,7 +290,7 @@ nav {
 
 .about_us {
     background-color: #d1d0d0;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .about {
@@ -299,11 +299,11 @@ nav {
 }
 
 .about_img {
-    width: 30%;
+    width: 25%;
 }
 
 .about_img .img_top img {
-    width: 80%;
+    width: 100%;
     height: 100%;
     z-index: 2;
     margin-top: -50px;
@@ -349,17 +349,22 @@ nav {
 }
 
 .palq_row_con {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    gap: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.palq_row_1 {
+    display: flex;
+    gap: 1rem;
+    width: 50%;
 }
 
 .palq_box {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    width: 50%;
 }
 
 .palq_box i {
@@ -373,19 +378,18 @@ nav {
 }
 
 .palq_box_icon {
-    width: 100%;
+    height: 210px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #241e56;
-    height: 270px;
+    background-image: url("../img/box.png");
     background-size: cover;
     transition: ease .1000ms;
 }
 
 .palq_box_icon:hover {
-    border: 2px solid #241e56;
-    background-color: #fff;
+    transform: scale(1.05);
 }
 
 .palq_box p:hover {
@@ -555,6 +559,10 @@ nav {
 }
 
 .t_b_1 {
+    width: 50%;
+}
+
+.t_b_2 {
     width: 40%;
 }
 
@@ -566,10 +574,10 @@ nav {
 .team_con_img {
     width: 50%;
     border-radius: 1rem;
-    padding: 20px;
+    padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -591,30 +599,46 @@ nav {
 
 .con_1 {
     height: 90%;
-    background-color: #ce8b42;
+    background-color: #fff;
+}
+
+.con_3 p {
+    color: #241e56;
 }
 
 .team_box i {
     background-color: #fff;
-    padding: 10px;
-    font-size: 10px;
+    padding: 20px;
+    font-size: 20px;
     border-radius: 50%;
     color: #ce8b42;
+    border: 1px solid  #ce8b42;
+}
+
+.con_sp {
+    color: #241e56 !important;
+}
+
+.t_b_2 {
+    position: relative;
 }
 
 .con_2 {
-    height: 100%;
+    height: 400px;
     background-color: #241e56;
+    margin-top: -10px !important;
+    z-index: 100;
 }
 
 .con_3 {
     height: 80%;
-    background-color: #ce8b42;
+    background-color: #fff;
 }
 
 .con_3 .btn {
     background-color: #241e56;
     color: #ce8b42;
+    margin-left: 10px;
 }
 
 .con_4 {
@@ -631,15 +655,19 @@ nav {
     color: #fff;
 }
 
+small {
+    color: #fff;
+}
+
 .team_con_img span {
-    font-size:  25px;
+    font-size:  20px;
     display: block;
     margin: 10px;
     color: #fff;
 }
 
 .team_con_img p {
-    font-size:  15px;
+    font-size:  14px;
     line-height: 20px;
     display: block;
     margin: 10px;
@@ -811,9 +839,26 @@ nav {
     }
 }
 
+@media (max-width: 1600px) {
+    .home_cover_overlay {
+        top: 83%;
+    }
+}
+
 @media (max-width: 1582px) {
     .home_con {
         width: 50%;
+    }
+}
+
+@media (max-width: 1064px) {
+    .palq_row_con {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .palq_row_1 {
+        width: 100%;
     }
 }
 
@@ -879,8 +924,11 @@ nav {
         width: 100% !important;
     }
 
-    .team_box span {
-        font-size: 50px;
+    .team_con_img span {
+        font-size:  30px;
+        display: block;
+        margin: 10px;
+        color: #fff;
     }
 
 }
@@ -1197,7 +1245,7 @@ nav {
     .con_1 {
         height: 100%;
         width: 100%;
-        background-color: #ce8b42;
+        background-color: #fff;
     }
     
     .con_2 {
@@ -1209,13 +1257,24 @@ nav {
     .con_3 {
         height: 100%;
         width: 100%;
-        background-color: #241e56;
+        background-color: #fff;
     }
     
     .con_4 {
         height: 100%;
         width: 100%;
-        background-color: #ce8b42;
+        background-color: #241e56;
+    }
+}
+
+@media (max-width: 506px) {
+    .palq_row_1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .palq_box {
+        width: 100%;
     }
 }
 
@@ -1223,6 +1282,10 @@ nav {
     .con_container span {
         font-size: 30px;
         color: #fff;
+    }
+
+    .logo img {
+        width: 200px;
     }
 
     .home_cover_overlay {
