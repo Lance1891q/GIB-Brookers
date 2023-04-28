@@ -20,7 +20,7 @@ body {
 }
 
 section {
-    padding: 20px 10%;
+    padding: 20px 13%;
 }
 
 .btn {
@@ -78,7 +78,7 @@ nav {
     width: 100%;
     height: 6rem;
     position: fixed;
-    padding: 20px 10%;
+    padding: 20px 13%;
     background-color: #fff;
     z-index: 1000;
 }
@@ -109,9 +109,43 @@ nav {
     display: block;
     color: #333;
     padding: 0 1.5rem;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 16px;
     transition: color 550ms;
+}
+
+.home_cover_overlay {
+    overflow: hidden;
+}
+
+.home_overlay_box {
+    padding: 50px;
+    display: flex;
+    gap: 1rem;
+}
+
+.home_overlay_box_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.home_overlay_box:nth-child(1),.home_overlay_box:nth-child(2) {
+    border-right: 2px solid #ce8b42;
+}
+
+.home_overlay_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_overlay_icon i {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #ce8b42;
 }
 
 .nav-list a:hover {
@@ -124,6 +158,7 @@ nav {
     display: block;
     border-top: 3px solid #ce8b42;
     background-color: #241e56;
+    padding: 1rem 10px;
     top: 16rem;
     transition: all 550ms ease;
     opacity: 0;
@@ -184,6 +219,44 @@ nav {
     letter-spacing: 1px;
 }
 
+.swiper {
+    position: relative;
+    width: 100vw;
+    height: 75vh;
+    margin-bottom: 50px;
+}
+
+.overlay_1 {
+    margin-top: 6rem;
+    border-top: 5px solid #ce8b42;
+}
+
+.overlay_2 {
+    border-top: 5px solid #241e56;
+}
+
+.swiper-slide_1 {
+    background-image: url("../img/cube22.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide_2 {
+    background-image: url("../img/back-24.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide_3 {
+    background-image: url("../img/about_cover.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home_con {
+    padding-left: 3%;
+}
+
 .home_con p {
     color: #000;
 }
@@ -195,6 +268,24 @@ nav {
 
 .home_con .btn {
     align-self: flex-end;
+}
+
+.home_cover_overlay {
+    position: absolute;
+    top: 80%;
+    width: 74%;
+    height: 12%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    z-index: 99;
+    background-color: #241e56;
+    display: flex;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_overlay_box p {
+    color: #fff;
+    font-size: 14px;
 }
 
 .about_us {
@@ -471,7 +562,7 @@ nav {
 }
 
 .contact-info img {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .first-info {
@@ -576,11 +667,20 @@ nav {
         padding: 60px 4%;
         transition: .3s;
     }
+
+    .home_cover_overlay {
+        width: 92%;
+        top: 80%;
+    }
 }
 
 @media (max-width: 1429px) {
     .cate-pro {
         grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+    }
+
+    .home_overlay_box {
+        padding: 20px;
     }
 
     .home_con span {
@@ -683,6 +783,18 @@ nav {
     .home_con {
         width: 80%;
         align-items: center;
+    }
+
+    .home_cover_overlay {
+       flex-direction: column;
+       position: initial;
+       width: 100%;
+       height: fit-content;
+    }
+
+    .home_overlay_box:nth-child(1),.home_overlay_box:nth-child(2) {
+        border-bottom: 2px solid #ce8b42;
+        border-right: none;
     }
 
     .row_img_con {
@@ -902,6 +1014,20 @@ nav {
         font-size: 30px;
         color: #fff;
     }
+
+    .home_cover_overlay {
+        padding: 10px;
+    }
+
+    .home_overlay_box {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .home_overlay_box_con {
+        align-items: center;
+    }
+
 
     .row h5 {
         font-size: 20px;
