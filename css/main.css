@@ -843,6 +843,10 @@ small {
     .home_cover_overlay {
         top: 83%;
     }
+
+    .con_2 {
+        height: 400px;
+    }
 }
 
 @media (max-width: 1582px) {
