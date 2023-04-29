@@ -834,7 +834,7 @@ small {
     font-weight: 500;
 }
 
-@media (max-width: 1292px) {
+@media (max-width: 1294px) {
     section {
         padding: 20px 4%;
         transition: .3s;
