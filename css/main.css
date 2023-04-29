@@ -871,6 +871,14 @@ small {
     .team_con_img {
         padding: 10px;
     }
+
+    .team_con_img p {
+        font-size:  13px;
+        line-height: 20px;
+        display: block;
+        margin: 5px;
+        color: #fff;
+    }
 }
 
 @media (max-width: 1064px) {
