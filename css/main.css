@@ -841,6 +841,10 @@ small {
         transition: .3s;
     }
 
+    .row h5 {
+        font-size: 20px;
+    }
+
     .home_cover_overlay {
         width: 92%;
         top: 80%;
