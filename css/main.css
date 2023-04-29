@@ -670,7 +670,7 @@ nav {
 }
 
 small {
-    color: #fff;
+    color: #fff !important;
 }
 
 .team_con_img span {

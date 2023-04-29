@@ -14,11 +14,12 @@
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css    ">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="con">
-            <nav>
+        <div class="con" >
+            <nav data-aos="fade-down">
                 <div class="menu-icons">
                     <i class="icon ion-md-menu"></i>
                     <i class="icon ion-md-close"></i>
@@ -66,7 +67,7 @@
 
     <div class="overlay_1"></div>
     <div class="overlay_2"></div>
-    <div class="swiper">
+    <div class="swiper" data-aos="fade-right">
         <div class="swiper-wrapper">
         <div class="swiper-slide swiper-slide_1"></div>
         <div class="swiper-slide swiper-slide_2"></div>
@@ -84,7 +85,7 @@
     </div>
 
     <section>
-        <div class="home_cover_overlay">
+        <div class="home_cover_overlay" data-aos="fade-up">
             <div class="home_overlay_box">
                 <div class="home_overlay_icon">
                     <i class="fas fa-phone"></i>
@@ -404,9 +405,13 @@
         </section>
     </div>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/script.js"></script>
     <script src="https://kit.fontawesome.com/c8fa2305aa.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script>
         const swiper = new Swiper('.swiper', {
