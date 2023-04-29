@@ -987,7 +987,7 @@ small {
     .home_con span p {
         padding: 0;
     }
-    
+
     .row {
         padding: 20px 40px;
     }
@@ -1134,13 +1134,7 @@ small {
     .contact-info {
         text-align: center;
     }
-}
 
-@media (max-width: 850px) {
-    body.hidden {
-        overflow-y: hidden;
-    }
-    
     .nav-list {
         position: fixed;
         top: 0;
@@ -1217,7 +1211,13 @@ small {
     nav.active .nav-list {
         display: flex;
     }
-    
+
+}
+
+@media (max-width: 850px) {
+    body.hidden {
+        overflow-y: hidden;
+    }    
 }
 
 @media (max-width: 762px) {
