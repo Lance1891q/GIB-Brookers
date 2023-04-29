@@ -645,6 +645,7 @@ nav {
 
 .con_3 {
     height: 80%;
+    align-items: center;
     background-color: #fff;
 }
 
@@ -957,6 +958,11 @@ small {
         justify-content: center;
     }
 
+    .row h5 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
     .home_con {
         text-align: center;
         align-items: center;
@@ -984,6 +990,22 @@ small {
 
     .row_sp .btn {
         width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .cate-pro {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    }
+
+    .row_1 {
+        display: block;
+    }
+
+    .row {
+        margin-top: 20px;
     }
 }
 
