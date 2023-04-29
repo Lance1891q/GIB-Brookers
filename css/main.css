@@ -849,6 +849,10 @@ small {
         width: 92%;
         top: 80%;
     }
+
+    .team_sec {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 1600px) {
