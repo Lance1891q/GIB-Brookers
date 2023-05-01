@@ -413,7 +413,7 @@ nav {
 }
 
 .row_sp span {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .row {
@@ -439,6 +439,7 @@ nav {
     width: 100%;
     border-radius: 5px;
     display: flex;
+    margin-top: 10px;
     gap: 0.7rem;
     flex-direction: column;
     justify-content: center;
@@ -459,7 +460,7 @@ nav {
 }
 
 .row h5 {
-    font-size: 25px;
+    font-size: 22px;
     color: #333;
     font-weight: 600;
     margin-bottom: 10px;
@@ -467,7 +468,7 @@ nav {
 
 .row p {
     color: #333;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
 }
 

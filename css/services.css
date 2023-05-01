@@ -10,8 +10,17 @@
     text-align: center;
 }
 
+.cate-pro {
+    margin-top: 50px;
+}
+
 .row {
     height: 50vh;
+    width: 100%;
+}
+
+.row_1 h5 {
+    font-size: 23px;
 }
 
 .row_img_con {
@@ -80,3 +89,24 @@
     background-image: url("../img/banner_7.png") !important;
 }
 
+@media (max-width: 1050px) {
+    .cate-pro {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+    }
+
+    .row_1 {
+        display: block;
+    }
+}
+
+@media (max-width: 773px) {
+    .cate-pro {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    }
+
+    .row_1 {
+        display: block;
+    }
+}
